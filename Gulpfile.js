@@ -52,6 +52,7 @@ gulp.task('min-less', function () {
   //return gulp.src('./src/less/layout.less')
     return gulp.src([
       './src/less/layout.less',
+      './src/less/app.less',
       './src/css/reset.css',
   ]) 
     .pipe(less().on('error', function (err) {
