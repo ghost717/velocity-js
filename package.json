@@ -1,0 +1,28 @@
+{
+  "name": "JWBA",
+  "version": "0.0.0",
+  "description": "JWBA",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org/jason7/jwba_startup.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
