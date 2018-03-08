@@ -111,6 +111,7 @@ gulp.task('default', ['min-less', 'watch']);
 gulp.task('build', [
     'clean',
     'php',
+    'html',
     'assets',
     'min-less',
     'move-files',
