@@ -14,7 +14,37 @@
 <body>
     <section id="page" class="flex-center" style="background-image: url('dist/assets/images/bg.jpg');">
         <div class="bg" ></div>
-        
+
+        <header class="content flex-center">
+            <nav id="menu">
+                <ul>
+                    <!-- <li><a href="#"><img src="dist/assets/images/hamburger.png" alt=""></a></li> -->
+                    <li>
+                        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                            <span class="mbtn">
+                                <span class="mb mb1"></span>
+                                <span class="mb mb2"></span>
+                                <span class="mb mb3"></span>
+                            </span>
+                        </button>
+                    </li>
+                    <li><a href="#"><img src="dist/assets/images/back.png" alt=""></a></li>
+                </ul>
+                <div id="primary-menu" class="flex-center">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div> 
+            </nav>
+            <nav id="lang">
+                <ul>
+                    <li><a href="#">ENG</a></li>
+                    <li><a href="#">PL</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <div id="post">
             <div class="post content">
                 <h1 class="title">Testing 123</h1>
@@ -24,6 +54,7 @@
                 </article>
             </div>
         </div>
+
         <div id="thumb">
             <div class="bg flex" style="background-image: url('dist/assets/images/bike.jpg');">
                 <img src="dist/assets/images/bike.jpg" alt="">
@@ -31,7 +62,14 @@
         </div>
 
         <div class="bg frame"></div>
-
+        
+        <footer class="content">
+            <nav id="bottom" class="center">
+                <ul>
+                    <li><a href="#"><img src="dist/assets/images/down.png" alt=""></a></li>
+                </ul>
+            </nav>
+        </footer>
     </section>
     
     <script src="dist/assets/js/velocity.min.js"></script>
