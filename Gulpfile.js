@@ -40,9 +40,6 @@ gulp.task('assets', function () {
 gulp.task('move-files',function(){
   return gulp.src([
       './src/js/*',
-      './src/bootstrap/*/*',
-      './src/wow/*',
-//      './src/biloxi_script/*',
   ],  {base: './src/'}) 
   .pipe(gulp.dest('./dist/assets'));
 });

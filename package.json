@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "JWBA",
   "dependencies": {
+    "animejs": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.1",
