@@ -27,7 +27,7 @@ gulp.task('html', function () {
 
 gulp.task('js', function () {
     return gulp.src('./src/js/*.js')
-        .pipe(gulp.dest('./dist/js'));
+        .pipe(gulp.dest('./dist/assets/js'));
 });
 
 //kopiowanie assetow
